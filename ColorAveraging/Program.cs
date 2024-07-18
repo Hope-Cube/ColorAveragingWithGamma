@@ -9,10 +9,10 @@ namespace ColorAveraging
         static void Main(string[] args)
         {
             List<Color> colors = new List<Color>() {
-        Color.FromArgb(233, 45, 255),
-        Color.FromArgb(56, 206, 252)
-    };
-
+            Color.FromArgb(233, 45, 255),
+            Color.FromArgb(56, 206, 252)
+            };
+            //Default gamma is 2
             Color color = AverageColor(colors, 2);
             //color = AverageColor(colors);
 
